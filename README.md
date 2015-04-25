@@ -35,17 +35,17 @@ Example
 //Initilization
  err := Init("basic.json")
 
- //Get Scalar Key
+//Get Scalar Key or default value.
  servername := GetStr("ServerName", "default")
  id:= GetInt("ID", 0)
 
- //Get Array Key
+//Get Array Key or default value.
  sa := GetStrArray("IPLIST", []string{})
  ia := GetIntArray("Port", []int{})
  ```
 Improvement
 -----------
 
- Considering json nest object support? 
+ Considering json nested object support? 
  such as:
- GetIntKey("key1.key2....keyn, defaulint)
+ GetIntKey("key1.key2....keyN, xxx)
