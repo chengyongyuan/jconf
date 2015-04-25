@@ -1,11 +1,12 @@
-# json format based simple configuation package
+# JSON based simple configuation package
 
 Introduction
 ------------
 
-The jconf package is simple json based config package is Go language.
-json is a simple and widely used data exchange format, json is also
-human-readable, meanwhile, it can easily processed by many lanuages.
+The jconf package is simple json based config package in Go language.
+Its main purpose is to make getting program configuation from file easy.
+JSON is a simple and widely used data exchange format, json is also
+human-readable, Meanwhile, it can easily processed by many lanuages.
 
 
 Installation and usage
@@ -42,9 +43,8 @@ Example
  sa := GetStrArray("IPLIST", []string{})
  ia := GetIntArray("Port", []int{})
  ```
-
- Improvement
- -----------
+Improvement
+-----------
 
  Considering json nest object support? 
  such as:
