@@ -45,6 +45,7 @@ Example
 
  Improvement
  -----------
+
  Considering json nest object support? 
  such as:
  GetIntKey("key1.key2....keyn, defaulint)
