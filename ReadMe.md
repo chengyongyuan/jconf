@@ -16,7 +16,7 @@ go get chengyongyuan/jconf
 
 License
 -------
-The jconf package is liscensed under BSD liscese.
+The jconf package is liscensed under MIT Liscese.
 
 Example
 -------
