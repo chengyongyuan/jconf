@@ -13,14 +13,14 @@ var basicTest = []struct {
 	ID         int
 }{
 	{
-		Path:       "basic.json",
+		Path:       "testdata/basic.json",
 		ServerName: "testserver",
 		IPLIST:     []string{"127.0.0.1", "192.168.0.1", "192.168.0.3"},
 		Port:       []int{80, 443, 14000},
 		ID:         8888,
 	},
 	{
-		Path:       "simple.conf",
+		Path:       "testdata/simple.conf",
 		ServerName: "colin't test machine",
 		IPLIST:     []string{"10.137.2.221", "127.0.0.1"},
 		Port:       []int{80, 443, 14000},
@@ -36,7 +36,7 @@ var simpleConfTest = []struct {
 	ID         int
 }{
 	{
-		Path:       "simple_sect.conf",
+		Path:       "testdata/simple_sect.conf",
 		ServerName: "15T",
 		IPLIST:     []string{"8.8.8.8", "1.1.1.1"},
 		Port:       []int{80, 443},
